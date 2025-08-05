@@ -23,5 +23,6 @@
       ./waypaper.nix # wallpaper engine
       ./zoxide.nix
       ./zsh.nix
+      ./env.nix
    ];
 }
