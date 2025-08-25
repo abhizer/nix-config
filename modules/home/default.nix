@@ -6,6 +6,7 @@
       ./btop.nix
       ./cava.nix
       ./discord.nix
+      ./env.nix
       ./ghostty.nix
       ./git.nix
       ./gnome.nix
@@ -22,7 +23,7 @@
       ./waybar # status bar
       ./waypaper.nix # wallpaper engine
       ./zoxide.nix
+      ./zotero.nix
       ./zsh.nix
-      ./env.nix
    ];
 }
