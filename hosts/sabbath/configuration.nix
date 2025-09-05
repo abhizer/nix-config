@@ -26,8 +26,13 @@
   networking.nameservers = [ "1.1.1.1" "9.9.9.9" ];
 
   networking.extraHosts = ''
-  127.0.0.1 db-fancy.feldera.com
   '';
+
+  networking.useDHCP = false;
+  services.resolved = {
+    enable = true;
+    extraConfig = "DNSStubListener=no";
+  };
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
